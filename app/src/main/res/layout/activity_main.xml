@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <TableLayout
+     android:layout_width="374dp"
+     android:layout_height="401dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+  <TableRow
+      android:layout_marginBottom="15dp"
+      android:gravity="center">
+
+   <ImageButton
+       android:id="@+id/Geo"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:layout_marginRight="30dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher1"
+       tools:layout_editor_absoluteX="222dp"
+       tools:layout_editor_absoluteY="381dp" />
+
+   <ImageButton
+       android:id="@+id/Call"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher3"
+       tools:layout_editor_absoluteX="52dp"
+       tools:layout_editor_absoluteY="356dp" />
+  </TableRow>
+
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="15dp"
+      android:gravity="center">
+
+   <ImageButton
+       android:id="@+id/Nail"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:layout_marginRight="30dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher"
+       tools:layout_editor_absoluteX="52dp" />
+
+   <ImageButton
+       android:id="@+id/Brows"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher5"
+       tools:layout_editor_absoluteX="222dp" />
+  </TableRow>
+
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center">
+
+   <ImageButton
+       android:id="@+id/Make"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:layout_marginRight="30dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher4"
+       tools:layout_editor_absoluteX="52dp" />
+
+   <ImageButton
+       android:id="@+id/Hair"
+       android:layout_width="110dp"
+       android:layout_height="110dp"
+       android:clickable="true"
+       android:onClick="onClick"
+       app:srcCompat="@drawable/ic_launcher2"
+       tools:layout_editor_absoluteX="222dp"
+       tools:layout_editor_absoluteY="82dp" />
+  </TableRow>
+
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+ </TableLayout>
+
+ <ImageView
+     android:id="@+id/imageView2"
+     android:layout_width="match_parent"
+     android:layout_height="112dp"
+     android:clickable="true"
+     app:srcCompat="@drawable/ep" />
+
+</android.support.constraint.ConstraintLayout>
